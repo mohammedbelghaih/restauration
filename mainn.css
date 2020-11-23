@@ -1,0 +1,62 @@
+body{
+    background-image: url("img/cafe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .cover{
+    background-image: url("img/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+} */
+.container h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.container .row .plate .card{
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    border: 0 !important;
+}
+.container .row .plate .card input{
+    margin-left: 42%;
+}
+
+.container .row .card{
+    border: 0 !important;
+}
+
+.container .row .card h5, h3{
+    text-align: center;
+}
+.demande{
+    background-color: #DDC1D2;
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left:50%;
+    border-radius: 50px;
+
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.demande input{
+    width: 50%;
+    margin-left: auto !important;
+    margin-right: auto;
+    
+}
+.demande {
+    text-align: center;
+}
+.info .btn{
+    margin-top: 3%;
+    width: 10%;
+}
+.container .card-body{
+    background-color: #c7c4b5;
+}
